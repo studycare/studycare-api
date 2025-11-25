@@ -1,34 +1,8 @@
 {
   "name": "studycare-api",
-  "functions": {
-    "app/api/config/route.js": {
-      "runtime": "edge"
-    },
-    "app/api/health/route.js": {
-      "runtime": "edge"
-    },
-    "app/api/university/search/route.js": {
-      "runtime": "edge"
-    },
-    "app/api/university/departments/search/route.js": {
-      "runtime": "edge"
-    },
-    "app/api/schools/search/route.js": {
-      "runtime": "edge"
-    },
-    "app/api/generate-section/route.js": {
-      "runtime": "@vercel/node",
-      "memory": 1024
-    },
-    "app/api/generate-roadmap/route.js": {
-      "runtime": "@vercel/node",
-      "memory": 1024
-    },
-    "app/api/university/majors/route.js": {
-      "runtime": "@vercel/node",
-      "memory": 1024
-    }
-  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
   "env": {
     "NODE_ENV": "production"
   }
