@@ -36,6 +36,5 @@
     "env": {
       "OPENAI_API_KEY": "@openai-api-key"
     }
-  },
-  "regions": ["hkg1", "sfo1", "iad1"]
+  }
 }
