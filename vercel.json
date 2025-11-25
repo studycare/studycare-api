@@ -17,15 +17,15 @@
       "runtime": "edge"
     },
     "app/api/generate-section/route.js": {
-      "runtime": "nodejs18.x",
+      "runtime": "@vercel/node",
       "memory": 1024
     },
     "app/api/generate-roadmap/route.js": {
-      "runtime": "nodejs18.x",
+      "runtime": "@vercel/node",
       "memory": 1024
     },
     "app/api/university/majors/route.js": {
-      "runtime": "nodejs18.x",
+      "runtime": "@vercel/node",
       "memory": 1024
     }
   },
